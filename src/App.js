@@ -9,9 +9,9 @@ export default class app extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div>
         <EnTete />
-        <div>
+        <div className="container">
           <h1>Avis de passage</h1>
           <div>
             <div>
@@ -44,7 +44,11 @@ export default class app extends Component {
             <label for="Message"></label>
             <textarea placeholder="taper votre compte rendu ici" name="message" id="Message" rows="5" required></textarea>
           </div>
-          <Button onClick>Enregistrer</Button>
+          <div>
+            <Link to={'/rendu'}>
+              <Button className='bouton' onClick><p>Enregistrer</p></Button>
+            </Link>
+          </div>
         </div>
       </div>
     )

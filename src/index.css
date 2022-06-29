@@ -21,6 +21,25 @@ code {
     monospace;
 }
 
+h1,
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 2rem;
+  color: rgb(73, 156, 55);
+  text-decoration: underline;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 1rem;
+  color: rgb(95, 189, 12);
+}
+
 /* en tete */
 
 .logoClean3000 {
@@ -29,3 +48,37 @@ code {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
+/* page d'acceuil */
+
+.container {
+  text-align: center;
+  margin: 2rem;
+}
+
+.container input,
+.container select,
+.container textarea {
+  width: 100%;
+  border: 0.2rem solid rgb(61, 61, 51);
+}
+
+.container textarea {
+ border-radius: 1rem;
+}
+
+.bouton {
+  margin: 1rem;
+  border-color: rgb(61, 61, 51);
+  background-color: rgb(61, 61, 51);
+  color: white;
+  border-radius: 1rem;
+}
+
+.bouton:hover {
+  border-color: rgb(61, 61, 51);
+  background-color: white;
+  color: rgb(61, 61, 51);
+}
+
+/* page rendu */
