@@ -82,3 +82,41 @@ h2 {
 }
 
 /* page rendu */
+
+.container .renduH1 {
+  text-decoration: none;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.container .renduH2 {
+  text-align: left;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.container .renduP {
+  width: 100%;
+  text-align: justify;
+  padding: 1rem;
+  border: 0.1rem solid rgb(61, 61, 51);
+  margin: 0;
+  color: rgb(61, 61, 51);
+}
+
+.renduP p {
+  margin: 0;
+}
+
+.renduP .nomTech {
+  margin-top: 2rem;
+  text-align: right;
+  font-weight: bold;
+}
+
+.sign img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 20rem;
+  max-height: 20rem;
+}
